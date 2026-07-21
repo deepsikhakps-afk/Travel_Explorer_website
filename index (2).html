@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Explorer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">✈ Travel Explorer</div>
+    <nav>
+      <button class="nav-btn active" data-tab="explore">Explore</button>
+      <button class="nav-btn" data-tab="planner">Trip Planner</button>
+      <button class="nav-btn" data-tab="booking">Book</button>
+      <button class="nav-btn" data-tab="blog">Blog</button>
+      <button class="nav-btn" data-tab="itinerary">My Trip <span id="cartCount">(0)</span></button>
+    </nav>
+  </header>
+
+  <!-- EXPLORE SECTION -->
+  <section id="explore" class="tab-section active">
+    <div class="hero">
+      <h1>Discover your next adventure</h1>
+      <p>Search destinations by name, country, or vibe.</p>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search destinations e.g. beach, Japan, mountain...">
+        <select id="filterCategory">
+          <option value="all">All Categories</option>
+          <option value="beach">Beach</option>
+          <option value="mountain">Mountain</option>
+          <option value="city">City</option>
+          <option value="cultural">Cultural</option>
+        </select>
+      </div>
+    </div>
+    <div id="destinationGrid" class="card-grid"></div>
+  </section>
+
+  <!-- TRIP PLANNER SECTION -->
+  <section id="planner" class="tab-section">
+    <h2>Plan Your Trip</h2>
+    <p class="subtitle">Build a day-by-day itinerary and estimate your budget.</p>
+
+    <div class="planner-layout">
+      <div class="planner-form">
+        <h3>Add an Activity</h3>
+        <input type="text" id="activityDay" placeholder="Day (e.g. Day 1)">
+        <input type="text" id="activityName" placeholder="Activity name">
+        <input type="number" id="activityCost" placeholder="Estimated cost ($)">
+        <button id="addActivityBtn">Add Activity</button>
+      </div>
+
+      <div class="planner-list">
+        <h3>Itinerary</h3>
+        <div id="itineraryDays"></div>
+        <div class="budget-summary">
+          <strong>Total Estimated Budget: $<span id="totalBudget">0</span></strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING SECTION -->
+  <section id="booking" class="tab-section">
+    <h2>Book Your Stay</h2>
+    <p class="subtitle">Demo booking flow — no real transactions, no data stored.</p>
+    <div id="bookingGrid" class="card-grid"></div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section id="blog" class="tab-section">
+    <h2>Travel Stories</h2>
+    <div id="blogGrid" class="blog-grid"></div>
+  </section>
+
+  <!-- ITINERARY / CART SECTION -->
+  <section id="itinerary" class="tab-section">
+    <h2>My Trip Summary</h2>
+    <div id="savedDestinations"></div>
+    <div id="bookingSummary"></div>
+  </section>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
