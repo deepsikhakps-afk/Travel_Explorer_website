@@ -38,7 +38,7 @@ Travel-Explorer/
 
 ## 📸 Screenshots
 
-Add screenshots of your project he
+Add screenshots of your project 
 
 ## 🔮 Future Enhancements
 
