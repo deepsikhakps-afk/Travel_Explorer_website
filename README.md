@@ -39,7 +39,7 @@ Travel-Explorer/
 ## 📸 Screenshots
 ![alt text](image.png)
 
-Add screenshots of your 
+Add screenshots of  
 
 ## 🔮 Future Enhancements
 
