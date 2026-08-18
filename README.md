@@ -37,6 +37,7 @@ Travel-Explorer/
 3. Double-click `index.html` or open it in your web browser.
 
 ## 📸 Screenshots
+![alt text](image.png)
 
 Add screenshots of your project 
 
