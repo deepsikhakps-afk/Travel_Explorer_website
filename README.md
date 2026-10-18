@@ -45,7 +45,7 @@ Travel-Explorer/
 
 - User login and registration
 - Online booking system
-- Payment 
+- Payment integration
 - Interactive maps
 - Hotel and flight search
 - User reviews and ratings
