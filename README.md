@@ -52,7 +52,7 @@ Travel-Explorer/
 
 ## 👩‍💻 Author
 
-**Deepsikha 
+**Deepshikha 
 
 ## 📄 License
 
