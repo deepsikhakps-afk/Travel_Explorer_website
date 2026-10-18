@@ -47,8 +47,7 @@ Travel-Explorer/
 - Online booking system
 - Payment integration
 - Interactive maps
-- Hotel and flight search
-- User reviews and ratings
+- Hotel and flight searchreviews and ratings
 
 ## 👩‍💻 Author
 
