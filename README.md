@@ -4,7 +4,7 @@ Travel Explorer is a responsive travel website that helps users explore popular 
 
 ## ✨ Features
 
--  design for desktop and mobile
+- Responsive design for desktop and mobile
 - Attractive homepage with travel destinations
 - Destination cards with images and details
 - Search functionality
