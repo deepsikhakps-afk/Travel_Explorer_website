@@ -34,7 +34,7 @@ Travel-Explorer/
 
 1. Download or clone this repository.
 2. Open the project folder.
-3. Double-click `index.html` or open it in your web 
+3. Double-click `index.html` or open it in your web browser.
 
 ## 📸 Screenshots
 ![alt text](image.png)
