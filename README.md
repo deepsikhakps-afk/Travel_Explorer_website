@@ -48,7 +48,7 @@ Travel-Explorer/
 - Payment integration
 - Interactive maps
 - Hotel and flight search
-- User reviews and ratings
+- User reviews and 
 
 ## 👩‍💻 Author
 
