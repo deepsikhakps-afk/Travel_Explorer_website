@@ -42,7 +42,8 @@ Travel-Explorer/
   
 
 ## 🔮 Future Enhancements
-registration
+
+- User login and registration
 - Online booking system
 - Payment integration
 - Interactive maps
